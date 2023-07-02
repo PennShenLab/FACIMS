@@ -1,7 +1,7 @@
 # Fairness-Aware Class Imbalanced Learning on Multiple Subgroups
 
 This repository holds the official code for the paper [Fairness-Aware Class Imbalanced 
-Learning on Multiple Subgroups]() (Accepted by [UAI 2023](https://www.auai.org/uai2023/))  
+Learning on Multiple Subgroups](https://openreview.net/forum?id=1ENFE2VJWx) (Accepted by [UAI 2023](https://www.auai.org/uai2023/))  
 
 ### 🦸‍ Abstract
 We propose a novel Bayesian-based optimization framework designed to tackle the challenge of generalization in overparameterized models with imbalanced subgroups and limited samples. Our proposed tri-level optimization framework leverages both local (subgroup-specific) predictors, trained on a small amount of data, and a fair and class-balanced predictor at the middle and lower levels. To effectively overcome saddle points for minority classes, our lower-level formulation incorporates sharpness-aware minimization. At the upper level, the framework dynamically adjusts the loss function based on validation loss, ensuring close alignment between the global predictor and local predictors. Theoretical analysis demonstrates the framework's ability to enhance classification and fairness generalization, potentially leading to improvements in the generalization bound. Empirical results validate the superior performance of our tri-level framework compared to existing state-of-the-art approaches.
